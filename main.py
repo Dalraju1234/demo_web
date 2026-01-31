@@ -1,5 +1,6 @@
 import streamlit as st
 st.title("ITECH COMPUTERS")
+st.subheader("BaunsGali,cuttack")
 name=st.text_input("Enter Yout Name :")
 fname=st.text_input("Enter you Father's Name:")
 mname=st.text_input("Enter your Mother's Name:")
@@ -10,4 +11,5 @@ if btn:
     st.markdown(f""" Name of sthe student :{name}
 
                  fathers Name:{fname}mother name{mname} address:{addr},class :{classdata}""")
+
 
